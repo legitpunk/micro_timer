@@ -33,6 +33,7 @@ Create a session variable that holds the micro_timer variable.
 The variable should be a interger of 1, e.g. $_SESSION['Start_Timer'] = 1;
 Then every script you want the Micro_Timer to report the script php file name and the timer count between micro_timer function scripts, it'll output by using : 
 $_SESSION['Start_Timer'] = Micro_Timer(basename(__FILE__, '.php'), 0);
-So put that line above in every file you want to use it on
+So put that line above in every file you want to use it on.
+Then just add an html div with an id="Run" in your html file and it'll put the results of the report and timers in there. 
 
 **/
